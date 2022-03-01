@@ -71,7 +71,6 @@ const loadPhone=(id)=>{
 const displayPhone= (phone) => {
    
     const storageS=phone.data.mainFeatures.storage;
-  
 
     const offCanvasRight= document.getElementById('offcanvasRight');
     offCanvasRight.innerHTML=`<div class="offcanvas-header">
@@ -113,8 +112,7 @@ const displayPhone= (phone) => {
                                    
                                  </ul>
                                </div>
-                                
-                                
+ 
                                 
                               </div>
                             </div>
