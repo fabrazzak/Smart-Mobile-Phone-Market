@@ -104,11 +104,11 @@ const displayPhone= (phone) => {
                                <div class="col-12 col-lg-12">
                                <h3 class="my-3 text-primary">Others: </h3>
                                 <ul class="fs-6">
-                                   <li><h5>Bluetooth :</h5> <p>${phone.data.others.Bluetooth ? phone.data.others.Bluetooth : "Not avalable"}</p></li>
-                                   <li><h5>GPS:</h5> <p>${phone.data.others.GPS ? phone.data.others.GPS : "Not avalable"}</p></li>
-                                   <li><h5>NFC:</h5> <p>${phone.data.others.NFC ? phone.data.others.NFC : "Not avalable"}</p></li>
-                                   <li><h5>USB:</h5> <p>${phone.data.others.USB ? phone.data.others.USB : "Not avalable"}</p></li>
-                                   <li><h5>WLAN:</h5> <p>${phone.data.others.WLAN ? phone.data.others.WLAN : "Not avalable"}</p></li>
+                                   <li><h5>Bluetooth :</h5> <p>${phone.data. others ?.Bluetooth ? phone.data.others.Bluetooth : "Not avalable"}</p></li>
+                                   <li><h5>GPS:</h5> <p>${phone.data.others ?. GPS ? phone.data.others.GPS : "Not avalable"}</p></li>
+                                   <li><h5>NFC:</h5> <p>${phone.data.others?.NFC ? phone.data.others.NFC : "Not avalable"}</p></li>
+                                   <li><h5>USB:</h5> <p>${phone.data.others?.USB ? phone.data.others.USB : "Not avalable"}</p></li>
+                                   <li><h5>WLAN:</h5> <p>${phone.data.others?.WLAN ? phone.data.others.WLAN : "Not avalable"}</p></li>
                                    
                                  </ul>
                                </div>
